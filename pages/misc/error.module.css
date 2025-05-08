@@ -1,0 +1,26 @@
+.label {
+    text-align: center;
+    font-weight: 900;
+    font-size: 06.75rem;
+    line-height: 1;
+    color: var(--text-color);
+
+    @media (max-width: var(--mantine-breakpoint-sm)) {
+        font-size: 5.5rem;
+    }
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.375rem;
+
+    @media (max-width: var(--mantine-breakpoint-sm)) {
+        font-size: 2rem;
+    }
+}
+
+.description {
+    max-width: 31.25rem;
+    margin: auto;
+}
